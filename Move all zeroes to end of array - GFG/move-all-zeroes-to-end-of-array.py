@@ -2,12 +2,16 @@
 
 class Solution:
 	def pushZerosToEnd(self,arr, n):
-	    j=0
-    	for i in range(len(arr)):
-    	    if arr[i]!=0:
-    	        arr[j],arr[i]=arr[i],arr[j]
-    	        j+=1
-    	return arr
+	   c=0
+	   for i in range(len(arr)):
+	       if arr[i]!=0:
+	           arr[c]=arr[i]
+	           c+=1
+	   while(c<n):
+	       arr[c]=0
+	       c+=1
+	   return arr
+	       
 
 #{ 
  # Driver Code Starts
