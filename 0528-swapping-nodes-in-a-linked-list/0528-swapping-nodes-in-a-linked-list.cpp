@@ -11,22 +11,28 @@
 class Solution {
 public:
     ListNode* swapNodes(ListNode* head, int k) {
-        vector<int>v;
-        ListNode*h=head;
-        while(h!=NULL){
-            v.push_back(h->val);
-            h=h->next;
+        ListNode* l=head;
+        ListNode* r=head;
+        if(head->next==NULL)
+            return head;
+        for(int i=1;i<k;i++){
+            l=l->next;
+           
         }
-        swap(v[k-1],v[v.size()-k]);
-        ListNode* n=new ListNode(-1);
-        ListNode *p=n;
-        int i=0;
-        while(i<v.size()){
-            ListNode* t=new ListNode(v[i]);
-            n->next=t;
-            n=t;
-            i++;
+         ListNode* g=l;
+          cout<<g->val<<" "<<l->val<<endl;
+        while(g->next!=NULL){
+            g=g->next;
+            r=r->next;
+            cout<<g->val<<" "<<r->val<<endl;
         }
-        return p->next;
+       
+        int t=l->val;
+        // cout<<l<<" "<<r<<endl;
+        
+        l->val=r->val;
+        r->val=t;
+        return head;
+        
     }
 };
