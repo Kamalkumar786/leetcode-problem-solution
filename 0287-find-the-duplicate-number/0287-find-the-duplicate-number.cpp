@@ -4,7 +4,7 @@ public:
        int n=nums.size();
         vector<int>sub(n+1,0);
         for(int i=0;i<n;i++){
-            sub[nums[i]]++;
+            sub[nums[i]]+=1;
         }
         int ans=-1;
         for(int i=1;i<=n;i++){
