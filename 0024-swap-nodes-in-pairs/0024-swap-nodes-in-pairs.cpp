@@ -13,14 +13,10 @@ public:
     ListNode* swapPairs(ListNode* head) {
           if(head==NULL || head->next==NULL)
           return head;
-          ListNode *s=NULL;
-          ListNode *c=head;
-          ListNode *c1=head->next;
-          ListNode *f=NULL;
-          // head=head->next;
-          cout<<"asdfsadf";
+          ListNode *s=NULL,*c=head,*c1=head->next,*f=NULL;
+         
           while(c!=NULL&&c->next!=NULL){
-            cout<<"asdfsadf";
+      
             f=c->next;
             s=c->next->next;
             f->next=c;
