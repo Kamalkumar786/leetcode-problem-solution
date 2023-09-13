@@ -10,47 +10,25 @@
  */
 class Solution {
 public:
-    ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
-        int c=0,s=0;
-        ListNode *k=new ListNode(-1);
-        ListNode *q=k;
-        while(l1!=NULL && l2!=NULL){
-            s=(l1->val+l2->val+c);
-            c=s/10;
-            int r=s%10;
-            ListNode *n=new ListNode(r);
-            k->next=n;
-            k=k->next;
-            l1=l1->next;
-            l2=l2->next;
+    ListNode* addTwoNumbers(ListNode* head1, ListNode* head2) {
+          int car=0;
+    ListNode*p=new ListNode(9);
+        ListNode*ans=p;
+    while(head1!=NULL||head2!=NULL||car>0){
+        int sum=car;
+        if(head1!=NULL){
+            sum+=head1->val;
+            head1=head1->next;
         }
-      if(l1==NULL){
-           while( l2!=NULL){
-            s=(l2->val+c);
-             c=s/10;
-             int r=s%10;
-            ListNode *n=new ListNode(r);
-            k->next=n;
-            k=k->next;
-            l2=l2->next;
-        }}
-        else{
-            while( l1!=NULL){
-            s=(l1->val+c);
-             c=s/10;
-             int r=s%10;
-            ListNode *n=new ListNode(r);
-            k->next=n;
-            k=k->next;
-            l1=l1->next;
+        if(head2!=NULL){
+            sum+=head2->val;
+            head2=head2->next;
         }
-        }
-        if(c!=0){
-            ListNode *n=new ListNode(c);
-            k->next=n;
-            k=k->next;
-        }
-
-        return q->next;
+        int v=sum%10;
+        car=sum/10;
+        ans->next=new ListNode(v);
+        ans=ans->next;
+    }
+    return p->next;;
     }
 };
