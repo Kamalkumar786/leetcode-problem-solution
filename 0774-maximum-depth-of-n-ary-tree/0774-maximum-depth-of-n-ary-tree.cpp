@@ -22,9 +22,9 @@ class Solution {
 public:
     int maxDepth(Node* root) {
        if(root == NULL) return 0;
-        int ans = 0;
+        int d = 0;
         for(int i=0; i<root->children.size(); i++)
-            ans = max(maxDepth(root->children[i]), ans);
-        return ans+1;
+            d = max(maxDepth(root->children[i]), d);
+        return d+1;
     }
 };
