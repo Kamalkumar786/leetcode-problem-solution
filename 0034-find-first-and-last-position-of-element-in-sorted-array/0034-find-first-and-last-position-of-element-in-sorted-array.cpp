@@ -1,7 +1,7 @@
 class Solution {
 public:
    
-    int firstoccurence(vector<int>& nums, int key){
+  int firstoccurence(vector<int>& nums, int key){
         int s=0;
         int e=nums.size()-1;
         int mid=s+(e-s)/2;
@@ -43,7 +43,6 @@ public:
     }
      
     vector<int> searchRange(vector<int>& nums, int target) {
-       
         vector<int>v;
         int first=firstoccurence(nums,target);
         int last=lastoccurence(nums,target);
