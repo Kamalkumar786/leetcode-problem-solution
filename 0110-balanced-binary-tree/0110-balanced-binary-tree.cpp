@@ -11,21 +11,18 @@
  */
 class Solution {
 public:
-     int dfssolve(TreeNode*root){
-        if(root==NULL)
-            return 0;
-        int lh=dfssolve(root->left);
-        if(lh==-1)
-            return -1;
-        int rh=dfssolve(root->right);
-        if(rh==-1)
-            return -1;
-        if(abs(lh-rh)>1)
-        return -1;
-        
-        return max(lh,rh)+1;
-    }
-    bool isBalanced(TreeNode* root) {
-        return dfssolve(root)!=-1;
-    }
+    int depth(TreeNode* root){
+
+    if(root == NULL) return 0;
+
+    return max(depth(root->left),depth(root->right))+1;
+
+}
+bool isBalanced(TreeNode* root){
+  if(root==NULL)return 1;
+  int lh=depth(root->left);
+  int rh=depth(root->right);
+return abs(lh-rh)<=1 && isBalanced(root->left) && isBalanced(root->right);
+
+}
 };
