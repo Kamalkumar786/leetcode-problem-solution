@@ -36,7 +36,7 @@ public:
         //     cout<<endl;
         // }
         for(int i=0;i<ans.size();i++){
-            if((i-1)%2==0){
+            if((i+1)%2==0){
                 for(int j=0;j<ans[i].size()-1;j++){
                     if((ans[i][j]<=ans[i][j+1] || ans[i][j]%2!=0))
                         return 0;
