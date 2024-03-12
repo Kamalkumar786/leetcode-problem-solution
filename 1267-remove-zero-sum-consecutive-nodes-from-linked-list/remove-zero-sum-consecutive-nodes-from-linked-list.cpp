@@ -12,11 +12,11 @@ class Solution {
 public:
     ListNode* removeZeroSumSublists(ListNode* head) {
         ListNode* ptr = new ListNode(0,head);
-        for(ListNode* i = ptr; i; i=i->next){
-            int sum = 0;
-            for(ListNode* j = i->next; j; j=j->next){
-                sum+=j->val;
-                if(sum==0){
+        for(ListNode* i=ptr;i;i=i->next){
+            int s=0;
+            for(ListNode* j=i->next;j;j=j->next){
+                s+=j->val;
+                if(s==0){
                     i->next=j->next;
                 }
             }
