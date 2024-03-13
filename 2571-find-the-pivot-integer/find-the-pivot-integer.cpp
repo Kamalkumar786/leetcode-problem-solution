@@ -1,11 +1,8 @@
 class Solution {
-public:
-    int pivotInteger(int n) {
-        double x = sqrt(n * (n + 1) / 2.0);
-        if (fmod(x, 1.0) != 0) {
-            return -1;
-        } else {
-            return static_cast<int>(x);
-        }
-    }
+ public:
+  int pivotInteger(int n) {
+        int sum = (n * (n + 1) / 2);
+        int pivot = sqrt(sum);
+        return pivot * pivot == sum ? pivot : -1;
+  }
 };
