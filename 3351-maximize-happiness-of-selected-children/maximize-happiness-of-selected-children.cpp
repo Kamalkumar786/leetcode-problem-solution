@@ -8,7 +8,6 @@ public:
             s += max(happiness[i] - c, 0);  
             c++; 
         }
-        
         return s;
     }
 };
