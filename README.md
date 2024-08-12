@@ -25,9 +25,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 |  |
 | ------- |
+| [0125-valid-palindrome](https://github.com/Kamalkumar786/leetcode-problem-solution/tree/master/0125-valid-palindrome) |
 | [2502-sort-the-people](https://github.com/Kamalkumar786/leetcode-problem-solution/tree/master/2502-sort-the-people) |
 ## Sorting
 |  |
 | ------- |
 | [2502-sort-the-people](https://github.com/Kamalkumar786/leetcode-problem-solution/tree/master/2502-sort-the-people) |
+## Two Pointers
+|  |
+| ------- |
+| [0125-valid-palindrome](https://github.com/Kamalkumar786/leetcode-problem-solution/tree/master/0125-valid-palindrome) |
 <!---LeetCode Topics End-->
