@@ -29,6 +29,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0125-valid-palindrome](https://github.com/Kamalkumar786/leetcode-problem-solution/tree/master/0125-valid-palindrome) |
+| [2076-sum-of-digits-of-string-after-convert](https://github.com/Kamalkumar786/leetcode-problem-solution/tree/master/2076-sum-of-digits-of-string-after-convert) |
 | [2502-sort-the-people](https://github.com/Kamalkumar786/leetcode-problem-solution/tree/master/2502-sort-the-people) |
 ## Sorting
 |  |
@@ -55,5 +56,6 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Simulation
 |  |
 | ------- |
+| [2076-sum-of-digits-of-string-after-convert](https://github.com/Kamalkumar786/leetcode-problem-solution/tree/master/2076-sum-of-digits-of-string-after-convert) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/Kamalkumar786/leetcode-problem-solution/tree/master/2271-rearrange-array-elements-by-sign) |
 <!---LeetCode Topics End-->
