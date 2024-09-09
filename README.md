@@ -6,6 +6,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [0054-spiral-matrix](https://github.com/Kamalkumar786/leetcode-problem-solution/tree/master/0054-spiral-matrix) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Kamalkumar786/leetcode-problem-solution/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Kamalkumar786/leetcode-problem-solution/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0300-longest-increasing-subsequence](https://github.com/Kamalkumar786/leetcode-problem-solution/tree/master/0300-longest-increasing-subsequence) |
@@ -62,6 +63,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Simulation
 |  |
 | ------- |
+| [0054-spiral-matrix](https://github.com/Kamalkumar786/leetcode-problem-solution/tree/master/0054-spiral-matrix) |
 | [2076-sum-of-digits-of-string-after-convert](https://github.com/Kamalkumar786/leetcode-problem-solution/tree/master/2076-sum-of-digits-of-string-after-convert) |
 | [2155-find-missing-observations](https://github.com/Kamalkumar786/leetcode-problem-solution/tree/master/2155-find-missing-observations) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/Kamalkumar786/leetcode-problem-solution/tree/master/2271-rearrange-array-elements-by-sign) |
@@ -73,4 +75,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/Kamalkumar786/leetcode-problem-solution/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
+## Matrix
+|  |
+| ------- |
+| [0054-spiral-matrix](https://github.com/Kamalkumar786/leetcode-problem-solution/tree/master/0054-spiral-matrix) |
 <!---LeetCode Topics End-->
