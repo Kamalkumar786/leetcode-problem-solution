@@ -8,6 +8,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Kamalkumar786/leetcode-problem-solution/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Kamalkumar786/leetcode-problem-solution/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [0300-longest-increasing-subsequence](https://github.com/Kamalkumar786/leetcode-problem-solution/tree/master/0300-longest-increasing-subsequence) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/Kamalkumar786/leetcode-problem-solution/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2155-find-missing-observations](https://github.com/Kamalkumar786/leetcode-problem-solution/tree/master/2155-find-missing-observations) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/Kamalkumar786/leetcode-problem-solution/tree/master/2271-rearrange-array-elements-by-sign) |
@@ -18,6 +19,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Kamalkumar786/leetcode-problem-solution/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Kamalkumar786/leetcode-problem-solution/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [0300-longest-increasing-subsequence](https://github.com/Kamalkumar786/leetcode-problem-solution/tree/master/0300-longest-increasing-subsequence) |
 ## Greedy
 |  |
 | ------- |
@@ -47,6 +49,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Binary Search
 |  |
 | ------- |
+| [0300-longest-increasing-subsequence](https://github.com/Kamalkumar786/leetcode-problem-solution/tree/master/0300-longest-increasing-subsequence) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/Kamalkumar786/leetcode-problem-solution/tree/master/1966-frequency-of-the-most-frequent-element) |
 ## Sliding Window
 |  |
