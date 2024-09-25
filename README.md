@@ -13,6 +13,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1966-frequency-of-the-most-frequent-element](https://github.com/Kamalkumar786/leetcode-problem-solution/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2155-find-missing-observations](https://github.com/Kamalkumar786/leetcode-problem-solution/tree/master/2155-find-missing-observations) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/Kamalkumar786/leetcode-problem-solution/tree/master/2271-rearrange-array-elements-by-sign) |
+| [2494-sum-of-prefix-scores-of-strings](https://github.com/Kamalkumar786/leetcode-problem-solution/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [2502-sort-the-people](https://github.com/Kamalkumar786/leetcode-problem-solution/tree/master/2502-sort-the-people) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/Kamalkumar786/leetcode-problem-solution/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 ## Dynamic Programming
@@ -36,6 +37,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0125-valid-palindrome](https://github.com/Kamalkumar786/leetcode-problem-solution/tree/master/0125-valid-palindrome) |
 | [2076-sum-of-digits-of-string-after-convert](https://github.com/Kamalkumar786/leetcode-problem-solution/tree/master/2076-sum-of-digits-of-string-after-convert) |
+| [2494-sum-of-prefix-scores-of-strings](https://github.com/Kamalkumar786/leetcode-problem-solution/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [2502-sort-the-people](https://github.com/Kamalkumar786/leetcode-problem-solution/tree/master/2502-sort-the-people) |
 ## Sorting
 |  |
@@ -79,4 +81,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/Kamalkumar786/leetcode-problem-solution/tree/master/0054-spiral-matrix) |
+## Trie
+|  |
+| ------- |
+| [2494-sum-of-prefix-scores-of-strings](https://github.com/Kamalkumar786/leetcode-problem-solution/tree/master/2494-sum-of-prefix-scores-of-strings) |
+## Counting
+|  |
+| ------- |
+| [2494-sum-of-prefix-scores-of-strings](https://github.com/Kamalkumar786/leetcode-problem-solution/tree/master/2494-sum-of-prefix-scores-of-strings) |
 <!---LeetCode Topics End-->
