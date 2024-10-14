@@ -1,18 +1,25 @@
 class Solution {
 public:
-    int numSquares(int n) {
-        vector<int> dp(n + 1, -1);
-        return fun(n, dp);
-    }
-    
-    int fun(int n, vector<int>& dp) {
-        if (n == 0) return 0;
-        if (dp[n] != -1) return dp[n];
-        int r = n; 
-        for (int i = 1; i * i <= n; ++i) {
-            r= min(r,fun(n - i * i, dp) + 1);
+   int numSquares(int n) {
+    queue<int> q;
+    q.push(n);
+    int t = 0;
+    while (!q.empty()) {
+        int l = q.size();
+        t++;
+        while (l > 0) {
+            n = q.front();
+            q.pop();
+            for (int j = std::sqrt(n); j > 0; j--) {
+                int next = n - j * j;
+                q.push(next);
+                if (next == 0) {
+                    return t;
+                }
+            }
+            l--;
         }
-        dp[n] = r;
-        return r;
     }
+    return t;
+}
 };
