@@ -21,6 +21,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Kamalkumar786/leetcode-problem-solution/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Kamalkumar786/leetcode-problem-solution/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [0279-perfect-squares](https://github.com/Kamalkumar786/leetcode-problem-solution/tree/master/0279-perfect-squares) |
 | [0300-longest-increasing-subsequence](https://github.com/Kamalkumar786/leetcode-problem-solution/tree/master/0300-longest-increasing-subsequence) |
 ## Greedy
 |  |
@@ -72,6 +73,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Math
 |  |
 | ------- |
+| [0279-perfect-squares](https://github.com/Kamalkumar786/leetcode-problem-solution/tree/master/0279-perfect-squares) |
 | [2155-find-missing-observations](https://github.com/Kamalkumar786/leetcode-problem-solution/tree/master/2155-find-missing-observations) |
 ## Linked List
 |  |
@@ -89,4 +91,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/Kamalkumar786/leetcode-problem-solution/tree/master/2494-sum-of-prefix-scores-of-strings) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0279-perfect-squares](https://github.com/Kamalkumar786/leetcode-problem-solution/tree/master/0279-perfect-squares) |
 <!---LeetCode Topics End-->
